@@ -1,4 +1,7 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Classic Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Turkey Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Black Bean Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Best-Ever Chicken Burger', true);
+INSERT INTO techblogs (techblog_name, devoured) VALUES ('Classic Cheesetechblog', false);
+INSERT INTO techblogs (techblog_name, devoured) VALUES ('Turkey techblog', false);
+INSERT INTO techblogs (techblog_name, devoured) VALUES ('Black Bean techblog', false);
+INSERT INTO techblogs (techblog_name, devoured) VALUES ('Best-Ever Chicken techblog', true);
+
+
+

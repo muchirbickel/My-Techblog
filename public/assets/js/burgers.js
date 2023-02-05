@@ -9,7 +9,7 @@ $(function() {
       };
   
       // Send the PUT request.
-      $.ajax("/api/burgers/" + id, {
+      $.ajax("/api/techblogs/" + id, {
         type: "PUT",
         data: newdevouredState
       }).then(
@@ -26,33 +26,33 @@ $(function() {
       event.preventDefault();
       //validator to prevent generating empty input  
       if ($("#Burg").val().trim()==="" || $("#Burg").val().trim()===" " || $("#Burg").val().trim()== null) {
-        alert("Please Enter a valid Burger's name!")  
+        alert("Please Enter a valid techblog's name!")  
       } else {
-      var newBurger = {
-        burger_name: $("#Burg").val().trim(),
+      var newtechblog = {
+        techblog_name: $("#Burg").val().trim(),
       };
       // Send the POST request.
-      $.ajax("/api/burgers", {
+      $.ajax("/api/techblogs", {
         type: "POST",
-        data: newBurger
+        data: newtechblog
       }).then(
         function() {
-          console.log("created new burger");
+          console.log("created new techblog");
           // Reload the page to get the updated list
           location.reload();
         }
       )};
     });
     
-    $(".delete-burger").on("click", function(event) {
+    $(".delete-techblog").on("click", function(event) {
       var id = $(this).data("id");
   
       // Send the DELETE request.
-      $.ajax("/api/burgers/" + id, {
+      $.ajax("/api/techblogs/" + id, {
         type: "DELETE"
       }).then(
         function() {
-          console.log("deleted burger", id);
+          console.log("deleted techblog", id);
           // Reload the page to get the updated list
           location.reload();
         }
