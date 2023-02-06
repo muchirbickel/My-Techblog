@@ -51,9 +51,8 @@ This app is under the MIT License.
 ## Contributing
 If anyone want to improve the app, feel free to contact me.
 ## Screenshot
-[Click here to see the demo video](https://youtu.be/Yx80DBjh-xs)
 
-![](./Assets/My-Employee-Tracker_.gif)
+![](./assets/techblog.gif)
 ## Questions
 Contact me: muchir99@gmail.com
 
