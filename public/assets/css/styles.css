@@ -4,7 +4,19 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.navbar-item {
+    font-family: nasalization, sans-serif;
+    color: rgb(246, 250, 249);
+    font-weight: 600;
+    font-size: larger;
+    text-align: right;
+    margin: 10px;
+}
 
+.login {
+    background-color: rgb(62, 62, 62);
+    color: aliceblue;
+}
 #inputDiv {
     padding-left: 0px;
     padding-right: 0px;
