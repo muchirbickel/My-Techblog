@@ -1,5 +1,6 @@
 #body {
-    background-color: yellow;
+    background-color: rgb(70, 168, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -10,11 +11,15 @@
 }
 
 .btn-primary {
-    padding: 15px;
-    margin: auto;
-    margin-left: 40%;
+    padding: 5px;
+    margin-left: 0;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.form-control{
+    font-size: 15px;
+    font-style: italic;
+}
 
 .input-group {
     padding-bottom: 20px;
@@ -22,18 +27,23 @@
 
 #h1 {
     text-align: center;
-    color: tomato;
-    font-size: 100px;
+    color: rgb(57, 55, 55);
+    font-size: 55px;
 }
 
 h5 {
-    text-align: center;
+    text-align: left;
+    margin: 50px 0 0 0;
+    font-size: medium;
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
+.create-form p{
+    font-size: small;
+}
 @media only screen and (max-width: 1024px) {
     
     #body {
